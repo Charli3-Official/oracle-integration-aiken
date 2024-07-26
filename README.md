@@ -6,8 +6,6 @@ This repository demonstrates how to integrate oracles into Cardano smart contrac
 
 - `lib/`: Houses the core oracle integration module.
   - `oracle_datum.ak`: Contains the oracle datum definitions, functions, and associated tests.
-  - `types.ak`: Defines common types used across the project.
-- `validators/`: Will contain the validator scripts, including the betting contract (to be implemented).
 - `aiken.toml`: Project configuration file.
 - `README.md`: This file, providing project overview and instructions.
 

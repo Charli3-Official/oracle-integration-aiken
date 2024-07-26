@@ -1,13 +1,13 @@
-name = "charli3/betting_contract"
+name = "charli3/oracle_integration"
 version = "0.1.0"
 compiler = "v1.0.29-alpha"
 plutus = "v2"
 license = "Apache-2.0"
-description = "A betting contract using Charli3 price feeds"
+description = "A library to interact with Charli3 price feeds"
 
 [repository]
 user = "charli3"
-project = "betting_contract"
+project = "oracle_integration"
 platform = "github"
 
 [[dependencies]]
