@@ -1,5 +1,5 @@
 name = "charli3/betting_contract"
-version = "0.0.0"
+version = "0.1.0"
 compiler = "v1.0.29-alpha"
 plutus = "v2"
 license = "Apache-2.0"
