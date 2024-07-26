@@ -1,0 +1,16 @@
+name = "charli3/betting_contract"
+version = "0.0.0"
+compiler = "v1.0.29-alpha"
+plutus = "v2"
+license = "Apache-2.0"
+description = "A betting contract using Charli3 price feeds"
+
+[repository]
+user = "charli3"
+project = "betting_contract"
+platform = "github"
+
+[[dependencies]]
+name = "aiken-lang/stdlib"
+version = "1.9.0"
+source = "github"
