@@ -2,6 +2,8 @@
 
 This repository demonstrates how to integrate oracles into Cardano smart contracts using the Aiken programming language. It includes an oracle datum module and will feature example implementations, such as a betting contract, to showcase practical applications of oracle data in Cardano dApps.
 
+*Note*: Compatible with aiken v1.0.29-alpha+16fb02e
+
 ## Project Structure
 
 - `lib/`: Houses the core oracle integration module.
