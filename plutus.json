@@ -1,0 +1,14 @@
+{
+  "preamble": {
+    "title": "charli3/oracle_integration",
+    "description": "A library to interact with Charli3 price feeds",
+    "version": "0.1.0",
+    "plutusVersion": "v2",
+    "compiler": {
+      "name": "Aiken",
+      "version": "v1.1.9+2217206"
+    },
+    "license": "Apache-2.0"
+  },
+  "validators": []
+}
