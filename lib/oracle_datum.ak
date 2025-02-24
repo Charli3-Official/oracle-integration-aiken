@@ -1,7 +1,6 @@
 use aiken/cbor
-use aiken/hash.{Blake2b_224, Hash}
-use aiken/pairs
-use aiken/transaction/credential.{Script}
+use aiken/collection/pairs
+use aiken/crypto.{ScriptHash}
 
 /// Represents a map of key-value pairs for price-related data
 pub type PriceMap =
@@ -24,7 +23,7 @@ pub type OracleDatum {
 
 /// Type alias for validator hash
 pub type ValidatorHash =
-  Hash<Blake2b_224, Script>
+  ScriptHash
 
 /// Retrieves the price from the PriceData
 ///
